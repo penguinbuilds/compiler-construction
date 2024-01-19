@@ -95,5 +95,8 @@ int main() {
     cout << "Total number of tokens: " << total_tokens << endl;
     cout << endl;    
 
+    readFromFile.close();
+    writeToFile.close();
+
     return 0;
 }
