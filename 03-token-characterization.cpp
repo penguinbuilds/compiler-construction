@@ -53,7 +53,7 @@ int main() {
     regex stringChecker("^\".*\"$");
     regex funcChecker("^[a-zA-Z_]\\w*[(]\\w*\\s?\\w*[)]$");
     regex varChecker("^[a-zA-Z_]\\w*$");
-    regex commentChecker("[/][/].*");
+    regex commentChecker("^[/][/].*");
 
     ifstream readFromFile("03-input-file.txt");
     ofstream writeToFile("03-output-file.txt");
