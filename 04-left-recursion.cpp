@@ -45,10 +45,9 @@ int main() {
 
     for (char c : exp) {
         production.emplace_back(c);
-    }    
-
+    }
+    
     removeLeftRecursion(production);
 
-    cout << endl;
     return 0;
 }
