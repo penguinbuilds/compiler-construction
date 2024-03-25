@@ -1,0 +1,11 @@
+DECLARE a
+DECLARE b
+SET a = 30
+SET b = 12
+PRINT a
+DEL a
+DECLARE a
+SET b = a + b  
+PRINT b
+DEL c
+QUIT

@@ -1,0 +1,13 @@
+DECLARE a
+DECLARE b
+DECLARE c
+SET a = 1
+SET b = 2
+PRINT b
+QUIT
+SET c = a + b
+PRINT c
+DEL a
+DEL b
+DEL c
+QUIT
